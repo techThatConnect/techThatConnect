@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+
+   {% include 'nav-blog.njk' %}
+    
+
+    <main class="row main">
+        <h3 class="subtitle">Helping people become more technically literate about the internet</h3>
+
+{% include 'art-card.njk' %}
+
+    </main>
+
+      {% include 'footer.njk' %}
+</body>
+</html>
