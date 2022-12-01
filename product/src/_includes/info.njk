@@ -9,13 +9,11 @@
 </head>
 <body>
 
-   {% include 'nav-blog.njk' %}
-    
+   {% include 'nav-bar.njk' %}
 
     <main class="row main">
-       
 
-{{content | safe}}
+      {% include 'info-card.njk' %}
 
     </main>
 
