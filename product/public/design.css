@@ -202,6 +202,10 @@ padding: 3em;
 margin-bottom: 1vh;
 }
 
+.cata-item:hover {
+  text-decoration: underline;
+}
+
 .nav-cata:hover .nav-sel-cata {
   display: flex;
   flex-wrap: wrap;
@@ -237,7 +241,7 @@ margin-right: 5vw;
 
 .hero-img {
   box-sizing: border-box;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/hero.jpg');
    height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -266,7 +270,8 @@ position: relative;
 }
 
 .subtitle {
-  padding: 1em;
+  /*
+  padding: 1em;*/
   background-color: var(--color);
     color: var(--dark);
     text-align: center;
@@ -300,6 +305,8 @@ no left or right margins on .card or it will brake grid system
     box-shadow: 2px 6px 5px 4px var(--color);
     text-align: center;
     align-items: center;
+ min-height: 50vh;  
+
 }
 
 .but-art {
@@ -336,8 +343,8 @@ display: block;
 
 .card-body {
   text-align: center;
-padding-left: 15vw;
-padding-right: 15vw;
+padding-left: 5vw;
+padding-right: 5vw;
 }
 
 .thumbnail {
@@ -453,6 +460,11 @@ padding-right: 15vw;
     font-size: 2.5rem;
   
   }
+.card-body {
+  padding-left: 10vw;
+padding-right: 10vw;
+}
+
   .thumbnail {
     margin-top: 5vh;
     max-height: 35vh;
@@ -514,7 +526,8 @@ padding-right: 15vw;
       border: solid 1px var(--color);
     }
     .card-body {
-      padding: 0;
+      padding-left: 2vw;
+      padding-right: 2vw;
     }
     .nav-cata {
       display: none;
