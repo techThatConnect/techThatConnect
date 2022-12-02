@@ -7,7 +7,6 @@ tags:
  - 'posts'
  - 'feature'
  - 'Web_Development'
- - 'buildseries'
  - 'series_first_website'
 badge: Web_Development
 image: '\images\devops.jpg'
