@@ -270,8 +270,7 @@ position: relative;
 }
 
 .subtitle {
-  /*
-  padding: 1em;*/
+max-height: fit-content;
   background-color: var(--color);
     color: var(--dark);
     text-align: center;
