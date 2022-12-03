@@ -116,6 +116,11 @@ display: inline-block;
   flex:  100%;
 }
 
+.nav-space-small {
+  margin-top: 2vh;
+  flex:  100%;
+}
+
 .nav-drop-btn {
   display: none;
 }
@@ -234,6 +239,7 @@ margin-bottom: 1vh;
   color: var(--light);
   font-size: 1em;
 margin-right: 5vw;
+margin-bottom: 2vh;
 }
 /* end nav */
 
@@ -270,7 +276,7 @@ position: relative;
 }
 
 .subtitle {
-max-height: fit-content;
+height: fit-content;
   background-color: var(--color);
     color: var(--dark);
     text-align: center;
