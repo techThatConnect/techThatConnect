@@ -31,6 +31,10 @@ min-height: calc(100vh - 11em);
   position: relative;
 }
 
+.left {
+  text-align: left;
+}
+
 .inline {
   display: inline;
 }
