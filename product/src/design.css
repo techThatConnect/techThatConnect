@@ -18,8 +18,8 @@ a {
 }
 
 .main {
+padding: 3vw;
   background-color: var(--light);
-
 min-height: calc(100vh - 11em);
 }
 
@@ -281,11 +281,13 @@ position: relative;
 
 .subtitle {
 height: fit-content;
+display: block;
   background-color: var(--color);
     color: var(--dark);
     text-align: center;
     font-style: italic;
   flex: 100%;
+  width: 100%;
 }
 
 .credit {
@@ -314,7 +316,6 @@ no left or right margins on .card or it will brake grid system
     box-shadow: 2px 6px 5px 4px var(--color);
     text-align: center;
     align-items: center;
- min-height: 30vh;  
 
 }
 
@@ -351,6 +352,7 @@ display: block;
 }
 
 .card-body {
+
   text-align: center;
 padding-left: 5vw;
 padding-right: 5vw;
@@ -383,13 +385,12 @@ margin: auto;
 }
 
 .thumb {
-  display: flex;
- max-width: 10vw;
- max-height: 20vh;
-border-radius: 50%;
-width: 100%;
-height: auto;
-margin: 2vw;
+  margin-bottom: 1vh;
+  flex: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  
 }
 
 .bio {
@@ -407,6 +408,12 @@ margin: 2vw;
 
 
 /*grid system*/
+.grid-container {
+  display: grid;
+  grid-template-columns: 2;
+}
+
+/*flexbox responsive*/
 * {
   box-sizing: border-box;
 }
@@ -447,11 +454,7 @@ margin: 2vw;
   .cata-sel {
     font: 1.25rem sans-serif;
   }
-  .thumbnail {
-    margin-top: 5vh;
-    max-height: 35vh;
-    max-width: 35vw;
-  }
+
 /*
   .nav-sel {
     position: absolute;
@@ -471,8 +474,12 @@ margin: 2vw;
       max-height: calc( var(--navVert) + 1em);
       
     }
+    .art-card {
+      padding-left: 7vw;
+      padding-right: 7vw;
+    }
   .card {
-    margin: 1em;
+    margin: 2em;
     box-shadow: 10px 10px 15px 4px var(--color);
   }
 
@@ -483,15 +490,11 @@ margin: 2vw;
   
   }
 .card-body {
-  padding-left: 10vw;
-padding-right: 10vw;
+  padding-left: 5vw;
+padding-right: 5vw;
 }
 
-  .thumbnail {
-    margin-top: 5vh;
-    max-height: 35vh;
-    max-width: 35vw;
-  }
+
  
 
 .nav-item , .nav-list-item {
@@ -504,13 +507,14 @@ padding-right: 10vw;
 .cata-sel {
   font: 1.5rem sans-serif;
 }
+
 }
 
 
 
   
 
-  @media (max-width: 1000px) {
+  @media (max-width: 500px) {
     .col  {
       flex: 100%;
     }
@@ -527,10 +531,7 @@ padding-right: 10vw;
     .credit {
       opacity: 65%;
     }
-    .thumbnail {
-      max-height: 35vh;
-      max-width: 65vw;
-    }
+    
     .nav-drop-btn {
       display: inline;
     }
@@ -561,5 +562,6 @@ padding-right: 10vw;
       margin-left: 10.5vw;
       max-width: 75vw;
     }
+
   }
 
