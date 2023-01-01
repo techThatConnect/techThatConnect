@@ -11,6 +11,7 @@ tags:
 badge: Web_Development
 image: '/images/picture1.png'
 author: Oliver Lund
+url: '/posts/webdev/I_am_building_a_website'
 ---
 
 ## Create a site from start to finish
@@ -21,7 +22,7 @@ author: Oliver Lund
 
 
  ---
-<img src="{{image}}" class="img-fluid">  
+<img src="{{image}}" class="art-pic">  
 
 
 ---
@@ -37,16 +38,5 @@ They are well documented, widely used and they integrate well with each other as
 Why I am doing this and how I plan to do it. See you next time when we talk in depth about [static site generators](https://dev.to/techthatconnect/static-site-generatorsssg-what-are-they-and-why-im-using-one-2i8h) and the JAM stack.
 
 
-*This article is part 1 of a series*
-*select from all additional installments below*
-<ol>
-{%for post in collections.series_first_website%}
 
-<li>
-<div class="card border d-inline m-2">
-<a href="{{post.url}}" class="text-decoration-none">{{post.data.title}}</a>
-</div>
-</li>
 
-{% endfor %}
-</ol>

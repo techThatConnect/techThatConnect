@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="http://localhost:8080/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech That Connect</title>
+    <link>http://localhost:8080/</link>
+    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml" />
+    <description>helping people become more technically literate about the internet</description>
+    <language>en</language>
+    <item>
+      <title>Static Site Generators(SSG)</title>
+      <link>http://localhost:8080/posts/webdev/Static_Site_Generators(SSG)/</link>
+      <description>&lt;h2&gt;What is a static site?&lt;/h2&gt;
+&lt;p&gt;Before we can generate one we should first know what it is. A static webpage is one that all HTML files are rendered and ready to serve upon request. This is in contrast to dynamic websites where parts or all of the site are generated at the time of viewing. So now that&#39;s out of the way, what is an SSG? A static site generator is a tool that generates a full static HTML website based on raw data and a set of templates. They come in different flavors that have their own niche but all mostly do the same thing. Before we look at some different SSG let&#39;s first discuss why we should use one.&lt;/p&gt;
+&lt;h2&gt;Why do you want a static site isn&#39;t that the old way of doing things?&lt;/h2&gt;
+&lt;p&gt;Well yes it is but in terms of speed and security static sites are second to none.
+For my project which is a simple blogging website there is no sensitive data, just articles already available to the public. This means there isn&#39;t anything on the server that a hacker wouldn&#39;t already have access to, making hacking your site very pointless. There is no computing logic on the server side so static sites are fast to serve up. If having a static site will work for your project it is considered by many to be the best path. For my project speed is very important because if anyone has to wait longer than 2 seconds to read a short article they will often click away. So for my purposes a static site is ideal.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;img src=&quot;http://localhost:8080/images/devops.jpg&quot; class=&quot;art-pic&quot; /&gt;  
+&lt;hr /&gt;
+&lt;h2&gt;Ok now we know why you want a static site, How do you go about building one?&lt;/h2&gt;
+&lt;p&gt;You build a nice landing page and then an about page and a contact page and so on. You might start with the same boilerplate HTML but the content is different for each page. You make, let&#39;s say just 5 pages but then you need to update the navigation section of your site. You would have to go make the exact same update on each page.  Now imagine you have a blog with hundreds of pages, one for each article. That&#39;s a lot of your time and effort just to update a simple menu item. This is the main reason people use SSGs. You can just update the navigation sections template and then re render the site and all your pages are updated at once. The above reasoning is why I chose to use a SSG to create my site.
+While blogging sites are not all you can make with a SSG, blogging is where they really shine.&lt;/p&gt;
+&lt;p&gt;As I mentioned before SSGs come in different flavors here are a few of the most popular with a brief description.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; a ruby based SSG created in 2008 by GitHub co-founder Tom Preston-Werner. It gained a lot of popularity due to support on github pages.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gohugo.io/&quot;&gt;Hugo&lt;/a&gt; is an open-source SSG built-in Go created back in 2013. Hugo&#39;s claim to frame is its lightning-fast build times.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&#39;s &lt;/a&gt; approach combines the simplicity of other traditional SSGs like Jekyll or Hugo with the popularity of JavaScript. Mozilla adopted Eleventy for sites like the Firefox extension documentation and the new version of MDN.&lt;/p&gt;
+&lt;p&gt;This is a short list of traditional(non framework based) SSGs a full list can be found at &lt;a href=&quot;https://jamstack.org/generators/&quot;&gt;jamstack&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;For my project&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://dev.to/techthatconnect/11ty-my-ssg-of-choice-and-how-use-it-in-my-blog-2f43&quot;&gt;I have decided to use 11ty&lt;/a&gt;
+It&#39;s not tied to a framework and lets you use a few different markup languages as well as arbitrary javascript. 11ty is a node.js module that&#39;s installed locally to my working directory. Its robust while being lightweight and works well for my purposes. More on this in the next installment.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 13 Aug 2022 21:00:00 +0000</pubDate>
+      <dc:creator>Oliver Lund</dc:creator>
+      <guid>http://localhost:8080/posts/webdev/Static_Site_Generators(SSG)/</guid>
+    </item>
+    <item>
+      <title>I built a website</title>
+      <link>http://localhost:8080/posts/webdev/I_am_building_a_website/</link>
+      <description>&lt;h2&gt;Create a site from start to finish&lt;/h2&gt;
+&lt;p&gt;I had been learning web development, on my own for about a year, and want to see a project through from start to finish. I always loved writing as a kid and a blog site appeared simple enough. It will be a place to collect my thoughts and hopefully help someone else along the way. Since I am starting a blog, why not write about the process? I am fairly new to development, so this is a great way for me to document my development as a developer(say that five times fast). I put this series on the site as its first set of archives. I’ll walk you through the tools I used why I made the decisions I did and how they affected the final product.&lt;/p&gt;
+&lt;h2&gt;So what’s important for a blog site?&lt;/h2&gt;
+&lt;p&gt;Easy to update, fast to load and has a well organized content filing system that’s searchable. After looking at different site architectures I decided to construct the site using a JAM (javascript, apis and markup) stack with a SSG or static site generator.  For this I chose 11ty, a node package installed locally in my working directory. Each article will be a markdown file that will be rendered as its own html page. For more information on what an SSG is and why I chose 11ty stay tuned for the next installment of this series.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;img src=&quot;http://localhost:8080/images/picture1.png&quot; class=&quot;art-pic&quot; /&gt;  
+&lt;hr /&gt;
+&lt;h2&gt;Now let&#39;s talk about hosting&lt;/h2&gt;
+&lt;p&gt;There are lots of hosting services out there, you can also host in house if you’re savvy enough. For a simple blog site I’m going with a hosting service. I have chosen Netlify for my project. I have chosen them for a few reasons. First of all, a great free tier. It is important to me that this series remains as accessible as possible. Netlify also offers continuous deployment from a github repo making this one a no brainer.&lt;/p&gt;
+&lt;h2&gt;git and github for version control.&lt;/h2&gt;
+&lt;p&gt;They are well documented, widely used and they integrate well with each other as well as netlify. While not necessary github plays an integral role in how the hosting service and updating will work for this project specifically.  It is a best practice to use version control for any type of serious development. Having the project on github is also integral to how the site will be updated. Netlify will rebuild your site everytime you update the repo on github. This will be linked to netlify CMS. I can then create new posts from an admin panel in a browser anywhere in the world.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;That wraps up the basics&lt;/h2&gt;
+&lt;p&gt;Why I am doing this and how I plan to do it. See you next time when we talk in depth about &lt;a href=&quot;https://dev.to/techthatconnect/static-site-generatorsssg-what-are-they-and-why-im-using-one-2i8h&quot;&gt;static site generators&lt;/a&gt; and the JAM stack.&lt;/p&gt;
+</description>
+      <pubDate>Fri, 05 Aug 2022 21:00:00 +0000</pubDate>
+      <dc:creator>Oliver Lund</dc:creator>
+      <guid>http://localhost:8080/posts/webdev/I_am_building_a_website/</guid>
+    </item>
+  </channel>
+</rss>

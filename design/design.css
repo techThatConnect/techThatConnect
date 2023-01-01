@@ -357,10 +357,12 @@ padding-right: 15vw;
 }
 
 .profile {
+  display: flex;
  max-width: 40vw;
-  border-radius: 50%;
-  width: 100%;
+border-radius: 50%;
+width: 100%;
   height: auto;
+margin: auto;
 }
 
 .bio {
@@ -388,7 +390,7 @@ padding-right: 15vw;
   }
   
   .col {
-    
+    display: flex;
     flex: 48%;
   }
   
@@ -526,5 +528,6 @@ padding-right: 15vw;
       margin-left: 10.5vw;
       max-width: 75vw;
     }
+    
   }
 

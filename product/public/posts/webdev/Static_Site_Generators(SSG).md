@@ -11,6 +11,7 @@ tags:
 badge: Web_Development
 image: '\images\devops.jpg'
 author: Oliver Lund
+url: '/posts/webdev/Static_Site_Generators(SSG)'
 ---
 
 ## What is a static site?
@@ -21,7 +22,7 @@ Well yes it is but in terms of speed and security static sites are second to non
 For my project which is a simple blogging website there is no sensitive data, just articles already available to the public. This means there isn't anything on the server that a hacker wouldn't already have access to, making hacking your site very pointless. There is no computing logic on the server side so static sites are fast to serve up. If having a static site will work for your project it is considered by many to be the best path. For my project speed is very important because if anyone has to wait longer than 2 seconds to read a short article they will often click away. So for my purposes a static site is ideal. 
 
  ---
-<img src="{{image}}" class="img-fluid">  
+<img src="{{image}}" class="art-pic">  
 
  ---
 
@@ -47,16 +48,3 @@ This is a short list of traditional(non framework based) SSGs a full list can be
  It's not tied to a framework and lets you use a few different markup languages as well as arbitrary javascript. 11ty is a node.js module that's installed locally to my working directory. Its robust while being lightweight and works well for my purposes. More on this in the next installment.  
   
 
-*This article is part 1 of a series*
-*select from all additional installments below*
-<ol>
-{%for post in collections.series_first_website%}
-
-<li>
-<div class="card border d-inline m-2">
-<a href="{{post.url}}" class="text-decoration-none">{{post.data.title}}</a>
-</div>
-</li>
-
-{% endfor %}
-</ol>
