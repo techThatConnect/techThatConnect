@@ -228,23 +228,52 @@ margin-bottom: 1vh;
 
 
 .footer {
-  max-height: 5em;
-
+  align-items: center;
+  text-align: center;
   background-color: var(--dark);
-  
+ 
 }
 .nav-foot {
-  text-align: center;
-  padding-top: 1em;
+margin: auto;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr 1fr;
+
 }
 
 .foot-item {
+  line-height: 1.8;
   display: inline;
   color: var(--light);
   font-size: 1em;
+  margin-top: 2vh;
 margin-right: 5vw;
 margin-bottom: 2vh;
 }
+
+.foot-item2 {
+  grid-row-start: 2;
+  line-height: 1.8;
+  display: inline;
+  color: var(--light);
+  font-size: 1em;
+  margin-top: 2vh;
+margin-right: 5vw;
+margin-bottom: 2vh;
+}
+.foot-item3 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  line-height: 1.8;
+  display: inline;
+  color: var(--light);
+  font-size: 1em;
+  margin-top: 2vh;
+margin-right: 5vw;
+margin-bottom: 2vh;
+}
+
 /* end nav */
 
 
@@ -321,6 +350,7 @@ no left or right margins on .card or it will brake grid system
 
 .but-art {
   color: var(--dark);
+  size: 100%;
  }
 
 .card:active {
@@ -424,7 +454,7 @@ margin: auto;
   }
   
   .col {
-    display: flex;
+   
     flex: 48%;
   }
   
@@ -514,7 +544,7 @@ padding-right: 5vw;
 
   
 
-  @media (max-width: 500px) {
+  @media (max-width: 1000px) {
     .col  {
       flex: 100%;
     }
