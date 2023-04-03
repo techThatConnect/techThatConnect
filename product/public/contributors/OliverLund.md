@@ -2,8 +2,10 @@
 title: Oliver Lund
 subtitle: Full-Stack Developer
 layout: 'info.njk'
-
+tags: contrib
 image: '/images/picofme.jpg'
+url: /contributors/OliverLund
+
 ---
  <div class="row">
                     <div class="col">

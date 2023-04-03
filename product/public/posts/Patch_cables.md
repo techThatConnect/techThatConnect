@@ -22,10 +22,8 @@ We also have TRRS for devices that need stereo output and a microphone to run fr
 The shape of the tip is also important as the indent close to the end is used to lock the cable in place. This helps to maintain a secure connection while also being easy to remove.
 
  ---
-<img src={{image}} class="img-fluid">
-<br>
-photo by
-Image by <a href="https://pixabay.com/users/mariakray-23567841/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6801339">Maria</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6801339">Pixabay</a>
+<img src={{image}} class="art-pic">
+
 
  ---
  
@@ -35,4 +33,4 @@ Image by <a href="https://pixabay.com/users/mariakray-23567841/?utm_source=link-
 
 ### Still in use today?
 
-Current producers of these cables include Yorkville, link audio, kmmk solutions, klots, rean, tourtech and many others. These cables are a great example of if it ain't broke don't fix it. We have used them for over a 100 years with almost no change other than a smaller size. Everytime you hop in your car turn the radio and hear the sound of an electric guitar you can be damn sure the sound passed through one, if not many, of these cables long before it touched your ears. With them being such a standard in the audio industry this ancient piece of technology isn't going away any time soon. But why are they the standard? For sure in 2022 we have more updated technologies, capable of passing an audio signal from an instrument to a speaker, Don’t we?  So are we stuck in our ways or did they just get it right the first time? Leave a comment of why you think we still use patch cables.  
+Current producers of these cables include Yorkville, link audio, kmmk solutions, klots, rean, tourtech and many others. These cables are a great example of if it ain't broke don't fix it. We have used them for over a 100 years with almost no change other than a smaller size. Everytime you hop in your car turn the radio and hear the sound of an electric guitar you can be damn sure the sound passed through one, if not many, of these cables long before it touched your ears. With them being such a standard in the audio industry this ancient piece of technology isn't going away any time soon. But why are they the standard? For sure in 2022 we have more updated technologies, capable of passing an audio signal from an instrument to a speaker, Don’t we?  So are we stuck in our ways or did they just get it right the first time? 

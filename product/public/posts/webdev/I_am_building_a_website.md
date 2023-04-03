@@ -6,7 +6,6 @@ summary:  I had been learning web development, on my own for about a year, and w
 tags: 
   - 'Web_Development'
   - 'feature'
-  - 'buildseries'
   - 'series_first_website'
 badge: Web_Development
 image: '/images/picture1.png'

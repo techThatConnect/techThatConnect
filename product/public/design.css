@@ -22,6 +22,9 @@ padding: 3vw;
   background-color: var(--light);
 min-height: calc(100vh - 11em);
 }
+.art-card a {
+  color:blue;
+}
 
 
 
